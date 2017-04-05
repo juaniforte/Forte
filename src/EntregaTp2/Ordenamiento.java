@@ -34,7 +34,7 @@ public class Ordenamiento {
 				}
 	}
 
-	public void OrdenarPorMergeo(){
+	public void OrdenarPorMergeo(){ 
 
 		this.numbers = arreglo;
 

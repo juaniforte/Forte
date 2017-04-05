@@ -49,5 +49,8 @@ public class Main {
 		totalTime = System.currentTimeMillis() - startTime;
 		System.out.println("Tiempo Merge  arreglo[50000]: "+totalTime);
 		
+		//Llegue a la conclusion de que para arreglos pequeños, tarda mas el ordenamiento por Mergeo, y es mas rapido por burbugeo,
+		//mientras que con arreglos de grandes dimenciones es mas eficiente el ordenamiento por MergeSort.
+		
 	}
 }
