@@ -25,7 +25,7 @@ public class Ordenamiento {
 
 		int i, j, aux;
 
-		for(i=0;i<arreglo.length-1;i++)
+		for(i=0;i<arreglo.length-1;i++) 
 			for(j=0;j<arreglo.length-i-1;j++)
 				if(arreglo[j+1]<arreglo[j]){
 					aux=arreglo[j+1];
